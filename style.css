@@ -444,7 +444,7 @@ html {
     padding: 1.25cm;
     padding-top: 0.75cm;
     width: 21cm;
-    height: 29.7cm;
+    height: 29cm;
     margin: auto;
 }
 
@@ -461,10 +461,9 @@ strong {
 #info {
     height: 1.7cm;
     display: flex;
-    flex-flow: column wrap-reverse;
-    justify-content: space-between;
-    margin-left: 3rem;
-    padding: 0.5rem;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     font-size: 1.1rem;
 }
 
@@ -548,11 +547,11 @@ strong {
 }
 
 .cv-entry-byline {
-    font-size: 0.8rem;
+    font-size: 1.0rem;
 }
 
 .cv-entry-desc {
-    font-size: 0.9rem;
+    font-size: 1.0rem;
     font-family: "Roboto";
     font-weight: 300;
 }
